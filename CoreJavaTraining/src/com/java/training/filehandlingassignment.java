@@ -9,11 +9,11 @@ import java.io.FileWriter;
 /**
  * Created by 22arsh on 1/31/17.
  */
-public class ioassn {
+ class IOAssignment {
 
     public static void main(String[] args) throws Exception{
         //File f1 = new File(  , "file1.txt");
-        File dir = new File("/Users/22arsh/pjt/");
+        File dir = new File("/Users/22arsh/assignments/Corejavatraining/CoreJavaTraining/files");
         if(!dir.exists())
         {
             dir.mkdir();

@@ -5,9 +5,9 @@ import java.util.List;
 /**
  * Created by 22arsh on 1/25/17.
  */
-public class dept {
+public class Dept {
     private String name;
-    private List<project> projects;
+    private List<Project> projects;
 
     public String getName() {
         return name;
@@ -17,15 +17,15 @@ public class dept {
         this.name = name;
     }
 
-    public List<project> getProjects() {
+    public List<Project> getProjects() {
         return projects;
     }
 
-    public void setProjects(List<project> projects) {
+    public void setProjects(List<Project> projects) {
         this.projects = projects;
     }
 
-    public dept(String name)
+    public Dept(String name)
     {
         this.name = name;
 

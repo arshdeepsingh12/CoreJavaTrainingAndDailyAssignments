@@ -1,11 +1,9 @@
 package com.java.training;
 
-import java.util.Scanner;
-
 /**
  * Created by 22arsh on 1/31/17.
  */
-public class annegram {
+public class AnnegramAssignment {
 
     public boolean isannegram(String str1,String str2)
     {
@@ -65,7 +63,7 @@ public class annegram {
 
     public static void main(String[] args) {
 
-        annegram obj1 = new annegram();
+        AnnegramAssignment obj1 = new AnnegramAssignment();
         System.out.println(obj1.isannegram("aabbcc","ccbbaa"));
     }
 

@@ -1,10 +1,9 @@
 package com.java.training;
 
 /**
- * Created by 22arsh on 2/1/17.
+ * Created by 22arsh on 2/3/17.
  */
-
-public class stack {
+public class StackAssignment {
 
     private int size;
     static int top=-1;
@@ -64,5 +63,31 @@ class MyException extends Exception {
     public MyException(String msg){
         super(msg);
     }
+}
+
+
+
+class Stack{
+
+    private int strl;
+    private char[] temp;
+    private int top=-1;
+    public Stack (int strl)
+    {
+        this.strl = strl;
+        temp = new char[strl];
+    }
+
+    public void push(char g)
+    {
+
+        temp[++top]=g;
+    }
+
+    public char pop()
+    {
+        return temp[top--];
+    }
+
 }
 

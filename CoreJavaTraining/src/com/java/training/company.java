@@ -5,14 +5,14 @@ import java.util.List;
 /**
  * Created by 22arsh on 1/25/17.
  */
-public class company {
+public class Company {
     private String name;
     private int id;
-    private List<dept> departments;
+    private List<Dept> departments;
 
 
 
-    public company (int id,String name)
+    public Company (int id,String name)
     {
 
         this.id=id;
@@ -30,11 +30,11 @@ public class company {
         this.id = id;
     }
 
-    public List<dept> getDepartments() {
+    public List<Dept> getDepartments() {
         return departments;
     }
 
-    public void setDepartments(List<dept> departments) {
+    public void setDepartments(List<Dept> departments) {
         this.departments = departments;
     }
 

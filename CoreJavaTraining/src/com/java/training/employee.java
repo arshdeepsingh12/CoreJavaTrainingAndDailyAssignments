@@ -5,11 +5,11 @@ import java.util.List;
 /**
  * Created by 22arsh on 1/25/17.
  */
-public class employee {
+public class Employee {
     private int id;
     private String name;
 
-    public employee(String name,int id)
+    public Employee(String name,int id)
     {
         this.name=name;
         this.id=id;

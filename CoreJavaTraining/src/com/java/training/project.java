@@ -5,12 +5,12 @@ import java.util.List;
 /**
  * Created by 22arsh on 1/25/17.
  */
-public class project {
+public class Project {
     private String name;
 
-    private List<employee> employees;
+    private List<Employee> employees;
 
-    public project(String name)
+    public Project(String name)
     {
         this.name=name;
     }
@@ -22,11 +22,11 @@ public class project {
         this.name = name;
     }
 
-    public List<employee> getEmployees() {
+    public List<Employee> getEmployees() {
         return employees;
     }
 
-    public void setEmployees(List<employee> employees) {
+    public void setEmployees(List<Employee> employees) {
         this.employees = employees;
     }
 

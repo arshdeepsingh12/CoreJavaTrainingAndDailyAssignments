@@ -3,11 +3,11 @@ package com.java.training;
 /**
  * Created by 22arsh on 2/1/17.
  */
-public class stackclient {
+public class StackClient {
     private static int x;
 
     public static void main(String[] args) {
-        stack pehla = new stack();
+        StackAssignment pehla = new StackAssignment();
         pehla.setSize(3);
 
         try{
